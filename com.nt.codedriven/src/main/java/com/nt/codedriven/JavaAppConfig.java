@@ -14,8 +14,7 @@ public class JavaAppConfig {
 		
 			String mes=wmg.message("Naveen");
 			
-		
-			
+		     System.out.println(mes);		
 		} catch (BeansException e) {
 			e.printStackTrace();
 		}
